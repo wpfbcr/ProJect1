@@ -1,0 +1,41 @@
+﻿生成启动时间为 2016/7/18 17:42:58。
+     1>项目“E:\wpfbcr\项目\Huffman\Huffman\Huffman.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Test.cpp
+         Test.cpp
+     1>e:\wpfbcr\项目\huffman\huffman\filecompare.h(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>e:\wpfbcr\项目\huffman\huffman\filecompare.h(61): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>e:\wpfbcr\项目\huffman\huffman\filecompare.h(89): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>e:\wpfbcr\项目\huffman\huffman\filecompare.h(91): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>e:\wpfbcr\项目\huffman\huffman\filecompare.h(101): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>e:\wpfbcr\项目\huffman\huffman\filecompare.h(167): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>e:\wpfbcr\项目\huffman\huffman\filecompare.h(169): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>e:\wpfbcr\项目\huffman\huffman\filecompare.h(172): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>e:\wpfbcr\项目\huffman\huffman\filecompare.h(180): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 d:\vs2013\vc\include\stdlib.h(937) : 参见“itoa”的声明
+     1>e:\wpfbcr\项目\huffman\huffman\filecompare.h(192): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\wpfbcr\项目\huffman\huffman\heap.h(83): warning C4018: “<”: 有符号/无符号不匹配
+                 e:\wpfbcr\项目\huffman\huffman\heap.h(81): 编译类 模板 成员函数“void Heap<huffnode<charinfo> *,Huffman<charinfo>::compare>::heapdown(size_t)”时
+                 e:\wpfbcr\项目\huffman\huffman\heap.h(52): 参见对正在编译的函数 模板 实例化“void Heap<huffnode<charinfo> *,Huffman<charinfo>::compare>::heapdown(size_t)”的引用
+                 e:\wpfbcr\项目\huffman\huffman\huffman.h(112): 参见对正在编译的类 模板 实例化“Heap<huffnode<charinfo> *,Huffman<charinfo>::compare>”的引用
+                 e:\wpfbcr\项目\huffman\huffman\filecompare.h(235): 参见对正在编译的类 模板 实例化“Huffman<charinfo>”的引用
+     1>e:\wpfbcr\项目\huffman\huffman\heap.h(85): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\wpfbcr\项目\Huffman\Debug\Huffman.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\wpfbcr\项目\Huffman\Debug\Huffman.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\wpfbcr\项目\Huffman\Debug\Huffman.lib" /MACHINE:X86 Debug\heap.obj
+         Debug\filecompare.obj
+         Debug\Huffman.obj
+         Debug\Test.obj
+         Huffman.vcxproj -> E:\wpfbcr\项目\Huffman\Debug\Huffman.exe
+     1>已完成生成项目“E:\wpfbcr\项目\Huffman\Huffman\Huffman.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.66
